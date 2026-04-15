@@ -1,0 +1,14 @@
+node_modules/
+dist/
+photos/
+*.log
+.DS_Store
+Thumbs.db
+.claude/
+compare_docx.py
+document.xml
+ref_doc.xml
+gen_doc.xml
+gen_text.txt
+ref_text.txt
+templates/~$*.docx
