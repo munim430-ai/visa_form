@@ -1,6 +1,6 @@
 {
   "name": "visa-form",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Korea D-4-1 Visa Application Form Generator",
   "author": "Hasibul Munim",
   "main": "main.js",
