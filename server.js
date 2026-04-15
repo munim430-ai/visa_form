@@ -13,9 +13,7 @@ const app = express();
 const upload = multer({ storage: multer.memoryStorage() });
 
 // Paths — works both inside Electron (packaged/dev) and plain Node (tests)
-const isPackaged = typeof process.defaultApp === 'undefined'
-  ? false
-  : !process.defaultApp;
+const isPackaged = !process.defaultApp; // undefined (packaged) → true; true (dev) → false
 
 const resourcesPath = (isPackaged && process.resourcesPath)
   ? process.resourcesPath
